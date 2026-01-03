@@ -42,13 +42,14 @@ export async function getServerSideProps(context) {
 
   const trendingResults = [
     {
-      "heading":"World Cup 2022 · LIVE",
+      "heading":"World Cup 2026 · LIVE",
       "description":"NZvAUS: New Zealand and Australia clash in the T20 World Cup final",
       "img":"https://rb.gy/d9yjtu",
       "tags":["#WorldCupFinal, ","Kane Williamson"]
     },
     {
-      "heading":"Trending in UK","description":"#earthquake",
+      "heading":"Trending in UK",
+      "description":"#earthquake",
       "img":"https://rb.gy/jvuy4v",
       "tags":["#Airshow, ","#earthquake"]
     },

@@ -22,16 +22,18 @@ const Trending = ({result}) => {
             </span>
           ))}
         </p>
-        {result.img && (
+        
+        {/* {result.img && (
           <Image
             src={result.img}
             width={250}
             height={250}
           />
-        )}
+        )} */}
       </div>
     </div>
   )
 }
 
+//removing image from trending for now
 export default Trending;

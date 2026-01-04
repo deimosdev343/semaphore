@@ -9,6 +9,7 @@ import {
 } from "firebase/firestore";
 import { db } from '../../../firebase';
 
+//NEXT_AUTH should be set in .env
 async function createOrGetUser(session) {
   const userQuery = query(
     collection(db, "users"),
